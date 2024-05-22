@@ -33,7 +33,13 @@ This is a simple port scanner developed by Valentin Thal. It scans for open port
 
 ## Usage
 
+
 Run the script:
 
 ```bash
 python port_scanner.py
+  ```
+## Exemple
+
+![Port Scanner Start](PortScan.png)
+![Port Scanner Result](Scan2.png)
