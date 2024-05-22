@@ -1,15 +1,15 @@
-# Port-Scanner
- 
 # Port Scanner
 
-This is a simple port scanner developed by Valentin Thal. It scans for open ports on a user-specified IP address. The project is written in Python and utilizes the `socket` library to attempt connections on a range of ports.
+This is a simple port scanner developed by Valentin Thal. It scans for open ports on a user-specified IP address. The project is written in Python and utilizes the `socket` library to attempt connections on a range of ports. Multithreading is used to improve the scanning speed.
 
 ## Features
 
 - Asks the user to input an IP address to scan.
-- Scans ports in the range from 1 to 65535.
+- Scans ports in the range from 1 to 5000.
 - Displays real-time progress updates.
-- Displays a list of open ports.
+- Displays open ports as they are found.
+- Provides a summary of all open ports in a tabular format at the end of the scan.
+- Utilizes multithreading for faster scanning.
 
 ## Installation
 
@@ -28,7 +28,7 @@ This is a simple port scanner developed by Valentin Thal. It scans for open port
 3. Install the required dependencies:
 
     ```bash
-    pip install pyfiglet
+    pip install pyfiglet tabulate
     ```
 
 ## Usage
